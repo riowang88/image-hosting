@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440">
+  <defs>
+    <style>
+      .title { font: 700 20px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #1a1a1a; }
+      .label { font: 600 14px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #333; }
+      .num { font: 700 16px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; }
+      .sub { font: 400 12px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #666; }
+      .note { font: 500 13px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #c0392b; }
+      .tag { font: 600 11px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #9a3412; }
+    </style>
+  </defs>
+  <rect width="720" height="440" fill="#fafafa" rx="12"/>
+  <rect x="520" y="18" width="164" height="24" rx="6" fill="#ffedd5"/>
+  <text x="602" y="34" text-anchor="middle" class="tag">示意演算 · 非实盘</text>
+  <text x="36" y="40" class="title">杠杆损耗是怎么来的？</text>
+  <text x="36" y="64" class="sub">假设：正股先跌 20%，再涨 25% —— 正股回到原点，2 倍 ETF 却回不去</text>
+
+  <text x="36" y="110" class="label" fill="#2563eb">正股 A（假设）</text>
+  <circle cx="100" cy="160" r="28" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="100" y="156" text-anchor="middle" class="num" fill="#2563eb">100</text>
+  <text x="100" y="172" text-anchor="middle" class="sub">起点</text>
+  <path d="M135 160 L195 160" stroke="#94a3b8" stroke-width="2"/>
+  <text x="165" y="148" text-anchor="middle" class="sub" fill="#dc2626">-20%</text>
+  <circle cx="240" cy="160" r="28" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="240" y="156" text-anchor="middle" class="num" fill="#dc2626">80</text>
+  <text x="240" y="172" text-anchor="middle" class="sub">Day1</text>
+  <path d="M275 160 L335 160" stroke="#94a3b8" stroke-width="2"/>
+  <text x="305" y="148" text-anchor="middle" class="sub" fill="#16a34a">+25%</text>
+  <circle cx="380" cy="160" r="28" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="380" y="156" text-anchor="middle" class="num" fill="#16a34a">100</text>
+  <text x="380" y="172" text-anchor="middle" class="sub">Day2</text>
+  <text x="440" y="156" class="label" fill="#16a34a">✓ 回到原价</text>
+  <text x="440" y="176" class="sub">涨跌互相抵消</text>
+
+  <text x="36" y="240" class="label" fill="#7c3aed">2× 做多 ETF（假设）</text>
+  <circle cx="100" cy="290" r="28" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="100" y="286" text-anchor="middle" class="num" fill="#7c3aed">10</text>
+  <text x="100" y="302" text-anchor="middle" class="sub">起点</text>
+  <path d="M135 290 L195 290" stroke="#94a3b8" stroke-width="2"/>
+  <text x="165" y="278" text-anchor="middle" class="sub" fill="#dc2626">-40%</text>
+  <circle cx="240" cy="290" r="28" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="240" y="286" text-anchor="middle" class="num" fill="#dc2626">6</text>
+  <text x="240" y="302" text-anchor="middle" class="sub">Day1</text>
+  <path d="M275 290 L335 290" stroke="#94a3b8" stroke-width="2"/>
+  <text x="305" y="278" text-anchor="middle" class="sub" fill="#16a34a">+50%</text>
+  <circle cx="380" cy="290" r="28" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="380" y="286" text-anchor="middle" class="num" fill="#d97706">9</text>
+  <text x="380" y="302" text-anchor="middle" class="sub">Day2</text>
+  <text x="440" y="286" class="note">✗ 只回到 9</text>
+  <text x="440" y="306" class="sub">回 10 还需约 +11.1%</text>
+
+  <rect x="36" y="350" width="648" height="66" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+  <text x="360" y="378" text-anchor="middle" class="label" fill="#9a3412">波动 + 跨日持仓 → 路径依赖损耗</text>
+  <text x="360" y="400" text-anchor="middle" class="sub">演算：9→10 需涨 10/9−1≈11.1%；相对起点亏损 (10−9)/10=10%</text>
+</svg>
