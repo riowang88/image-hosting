@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+  <defs>
+    <style>
+      .title { font: 700 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #1a1a1a; }
+      .label { font: 600 13px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #333; }
+      .sub { font: 400 11px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #666; }
+      .big { font: 700 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; }
+      .tag { font: 600 11px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #1e40af; }
+    </style>
+  </defs>
+  <rect width="720" height="480" fill="#fafafa" rx="12"/>
+  <rect x="470" y="14" width="214" height="24" rx="6" fill="#dbeafe"/>
+  <text x="577" y="30" text-anchor="middle" class="tag">原文盘中数据 + 假设推演</text>
+  <text x="36" y="36" class="title">日内机会：收益为何可能高于「回落点数×2」？</text>
+  <text x="36" y="58" class="sub">起点数字引自原文截图；后续三种结局为假设推演，非已发生实盘结果</text>
+
+  <rect x="36" y="76" width="648" height="52" rx="8" fill="#f1f5f9"/>
+  <text x="360" y="98" text-anchor="middle" class="label">原文盘中：SNDK +24.16%，SNDQ -48.26%，价 31.45；开盘价 60.79</text>
+  <text x="360" y="116" text-anchor="middle" class="sub">假设在 31.45 买入后，正股涨幅回落……（按理想 2 倍反向近似）</text>
+
+  <rect x="36" y="146" width="210" height="175" rx="10" fill="#fff" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="141" y="174" text-anchor="middle" class="label" fill="#166534">假设 A：回落到 +15%</text>
+  <text x="141" y="200" text-anchor="middle" class="sub">直觉：回落 9pt ×2 ≈ +18%</text>
+  <text x="141" y="226" text-anchor="middle" class="sub">推演：对应约 -30%</text>
+  <text x="141" y="252" text-anchor="middle" class="label">相对成本约</text>
+  <text x="141" y="282" text-anchor="middle" class="big" fill="#16a34a">+35.3%</text>
+
+  <rect x="255" y="146" width="210" height="175" rx="10" fill="#fff" stroke="#86efac" stroke-width="2"/>
+  <text x="360" y="174" text-anchor="middle" class="label" fill="#166534">假设 B：回到 0%</text>
+  <text x="360" y="200" text-anchor="middle" class="sub">推演：回到开盘附近</text>
+  <text x="360" y="226" text-anchor="middle" class="sub">60.79 / 31.45</text>
+  <text x="360" y="252" text-anchor="middle" class="label">相对成本约</text>
+  <text x="360" y="282" text-anchor="middle" class="big" fill="#16a34a">+93.3%</text>
+
+  <rect x="474" y="146" width="210" height="175" rx="10" fill="#fff" stroke="#fecaca" stroke-width="2"/>
+  <text x="579" y="174" text-anchor="middle" class="label" fill="#991b1b">假设 C：冲到 +30%</text>
+  <text x="579" y="200" text-anchor="middle" class="sub">推演：约 -60%</text>
+  <text x="579" y="226" text-anchor="middle" class="sub">31.45 → 约 24.3</text>
+  <text x="579" y="252" text-anchor="middle" class="label">相对成本约</text>
+  <text x="579" y="282" text-anchor="middle" class="big" fill="#dc2626">-22.7%</text>
+
+  <rect x="36" y="344" width="648" height="112" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="56" y="372" class="label" fill="#1e40af">推演口径（需同时成立）</text>
+  <text x="56" y="396" class="sub">1）涨跌幅相对当日开盘价；2）ETF 近似完美跟踪 ±2× 正股当日涨跌；</text>
+  <text x="56" y="416" class="sub">3）忽略费用、滑点、跟踪误差。实盘可能显著偏离。</text>
+  <text x="56" y="440" class="sub">来源：飞书原文《关于杠杆ETF交易的一些坑和机会》盘中截图与演算</text>
+</svg>
