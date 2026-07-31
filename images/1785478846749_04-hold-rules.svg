@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320">
+  <defs>
+    <style>
+      .title { font: 700 20px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #1a1a1a; }
+      .label { font: 600 15px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; }
+      .sub { font: 400 13px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #444; }
+      .tiny { font: 400 12px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; fill: #666; }
+    </style>
+  </defs>
+  <rect width="720" height="320" fill="#fafafa" rx="12"/>
+  <text x="36" y="40" class="title">机制结论（非买卖建议）</text>
+
+  <rect x="36" y="70" width="310" height="220" rx="12" fill="#fff" stroke="#fca5a5" stroke-width="2"/>
+  <circle cx="70" cy="110" r="18" fill="#fee2e2"/>
+  <text x="70" y="116" text-anchor="middle" class="label" fill="#dc2626">✕</text>
+  <text x="100" y="116" class="label" fill="#991b1b">机制上不适合</text>
+  <text x="56" y="160" class="sub">• 当普通股票长期持有</text>
+  <text x="56" y="188" class="sub">• 抄底后跨日过夜</text>
+  <text x="56" y="216" class="sub">• 单边行情里硬扛</text>
+  <text x="56" y="244" class="sub">• 无止损纪律的交易</text>
+  <text x="56" y="272" class="tiny">发行人通常提示：不宜持有超一日</text>
+
+  <rect x="374" y="70" width="310" height="220" rx="12" fill="#fff" stroke="#86efac" stroke-width="2"/>
+  <circle cx="408" cy="110" r="18" fill="#dcfce7"/>
+  <text x="408" y="116" text-anchor="middle" class="label" fill="#16a34a">✓</text>
+  <text x="438" y="116" class="label" fill="#166534">机制上常被用于</text>
+  <text x="394" y="160" class="sub">• 短期/日内交易或对冲</text>
+  <text x="394" y="188" class="sub">• 有明确日内波段时</text>
+  <text x="394" y="216" class="sub">• 理解路径依赖后再动手</text>
+  <text x="394" y="244" class="sub">• 单边低波动行情（例外）</text>
+  <text x="394" y="272" class="tiny">放大收益，也放大反向亏损</text>
+</svg>
