@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+<rect width="1200" height="470" fill="#fff8f6"/>
+<g font-family="sans-serif"><text x="60" y="54" font-size="28" font-weight="700" fill="#182230">现实中的程序断点</text><text x="60" y="88" font-size="16" fill="#667085">“初步证据不足”成为转送程序的单方闸门</text>
+<rect x="70" y="155" width="220" height="100" rx="10" fill="#fff" stroke="#d0d5dd"/><text x="180" y="195" text-anchor="middle" font-size="20" font-weight="700">用户申诉</text><text x="180" y="226" text-anchor="middle" font-size="15" fill="#667085">提交说明和材料</text>
+<rect x="400" y="135" width="260" height="140" rx="10" fill="#fff" stroke="#e57363" stroke-width="3"/><text x="530" y="180" text-anchor="middle" font-size="20" font-weight="700" fill="#b42318">平台自行判断</text><text x="530" y="215" text-anchor="middle" font-size="15" fill="#b42318">是否达到初步证据</text><text x="530" y="245" text-anchor="middle" font-size="15" fill="#667085">不透明、无独立审查</text>
+<rect x="810" y="155" width="220" height="100" rx="10" fill="#fff" stroke="#d0d5dd"/><text x="920" y="195" text-anchor="middle" font-size="20" font-weight="700">拒绝转送</text><text x="920" y="226" text-anchor="middle" font-size="15" fill="#667085">15日等待期不启动</text>
+<path d="M290 205H390M660 205H800" fill="none" stroke="#98a2b3" stroke-width="3"/><path d="M530 275V350H920V265" fill="none" stroke="#e57363" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="720" y="382" text-anchor="middle" font-size="19" font-weight="700" fill="#b42318">用户无法进入反通知程序，原措施持续存在</text></g></svg>
