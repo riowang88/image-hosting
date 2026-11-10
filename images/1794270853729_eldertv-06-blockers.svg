@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <rect x="0" y="0" width="960" height="560" fill="#FAF9F5"/>
+  <text x="40" y="54" font-family="Songti SC, STSong, serif" font-size="28" font-weight="700" fill="#141413">老设备卡在哪：四个卡点</text>
+  <text x="40" y="86" font-family="PingFang SC, sans-serif" font-size="16" fill="#5E5D59">换 X5 浏览器内核，只管得到其中一处</text>
+
+  <!-- column heads -->
+  <text x="56" y="128" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F">卡点</text>
+  <text x="396" y="128" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F">影响</text>
+  <text x="656" y="128" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F">现在的状态</text>
+
+  <!-- row 1 -->
+  <rect x="40" y="142" width="880" height="80" rx="12" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" font-size="16" fill="#141413"><tspan x="56" y="175" font-weight="600">ElderTV 自己的组件</tspan><tspan x="56" y="200" fill="#5E5D59" font-size="15">数据库、播放器最低要安卓 6.0</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="396" y="188">6.0 以下装不上</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="656" y="188">ElderTV 最低定在 7.0</tspan></text>
+
+  <!-- row 2 -->
+  <rect x="40" y="234" width="880" height="80" rx="12" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" font-size="16" fill="#141413"><tspan x="56" y="267" font-weight="600">插件调用新系统才有的功能</tspan><tspan x="56" y="292" fill="#5E5D59" font-size="15">比如日期功能要安卓 8.0</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="396" y="267">点播：点进去就崩</tspan><tspan x="396" y="292" fill="#5E5D59">7.0 上约 16% 的站</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="656" y="267">聚合时自动隐藏</tspan><tspan x="656" y="292" fill="#5E5D59">1.1.5 已带上</tspan></text>
+
+  <!-- row 3: where X5 would act -->
+  <rect x="40" y="326" width="880" height="80" rx="12" fill="#FBEFE9" stroke="#C15F3C" stroke-width="1.5"/>
+  <text font-family="PingFang SC, sans-serif" font-size="16" fill="#141413"><tspan x="56" y="359" font-weight="600">系统 WebView 版本太旧</tspan><tspan x="56" y="384" fill="#5E5D59" font-size="15">直播页要 Chrome 60 以上</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="396" y="359">直播：进不去</tspan><tspan x="396" y="384" fill="#5E5D59">7.0 模拟器自带的是 52</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="656" y="359">还没处理</tspan><tspan x="656" y="384" fill="#C15F3C" font-weight="600">X5 只能管到这一处</tspan></text>
+
+  <!-- row 4 -->
+  <rect x="40" y="418" width="880" height="80" rx="12" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" font-size="16" fill="#141413"><tspan x="56" y="451" font-weight="600">不认 Let's Encrypt 证书</tspan><tspan x="56" y="476" fill="#5E5D59" font-size="15">安卓 7.0 缺这家的根证书</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="396" y="451">点播：显示“连接超时”</tspan><tspan x="396" y="476" fill="#5E5D59">海报也加载不出来</tspan></text>
+  <text font-family="PingFang SC, sans-serif" font-size="15" fill="#141413"><tspan x="656" y="451">已内置根证书</tspan><tspan x="656" y="476" fill="#5E5D59">1.1.5 已带上</tspan></text>
+
+  <text x="40" y="534" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F">点播的搜索和播放不经过浏览器内核；直播用的是系统自带的 WebView</text>
+</svg>
