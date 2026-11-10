@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470">
+  <rect x="0" y="0" width="960" height="470" fill="#FAF9F5"/>
+  <text x="40" y="54" font-family="Songti SC, STSong, serif" font-size="28" font-weight="700" fill="#141413">各版本安卓能跑多少插件里的站</text>
+  <text x="40" y="86" font-family="PingFang SC, sans-serif" font-size="16" fill="#5E5D59">6509 个站点类，脚本推算，偏保守：实际能跑的只会更多</text>
+
+  <!-- axis -->
+  <polyline points="160,112 160,398" fill="none" stroke="#D9D6CC" stroke-width="1"/>
+  <polyline points="500,112 500,398" fill="none" stroke="#ECE9E0" stroke-width="1"/>
+  <polyline points="840,112 840,398" fill="none" stroke="#ECE9E0" stroke-width="1"/>
+  <text x="500" y="420" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F" text-anchor="middle">50%</text>
+  <text x="840" y="420" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F" text-anchor="middle">100%</text>
+
+  <!-- below the minimum: gray -->
+  <text x="144" y="141" font-family="PingFang SC, sans-serif" font-size="17" fill="#141413" text-anchor="end">安卓 4.1</text>
+  <rect x="160" y="122" width="163" height="26" rx="4" fill="#9C9A92"/>
+  <text x="333" y="141" font-family="PingFang SC, sans-serif" font-size="17" font-weight="600" fill="#141413">24%</text>
+  <text x="378" y="141" font-family="PingFang SC, sans-serif" font-size="14" fill="#5E5D59">一个 4.4 才有的文字编码功能，挡住了 1479 个站</text>
+
+  <text x="144" y="191" font-family="PingFang SC, sans-serif" font-size="17" fill="#141413" text-anchor="end">安卓 4.4</text>
+  <rect x="160" y="172" width="408" height="26" rx="4" fill="#9C9A92"/>
+  <text x="578" y="191" font-family="PingFang SC, sans-serif" font-size="17" font-weight="600" fill="#141413">60%</text>
+
+  <text x="144" y="241" font-family="PingFang SC, sans-serif" font-size="17" fill="#141413" text-anchor="end">安卓 6.0</text>
+  <rect x="160" y="222" width="476" height="26" rx="4" fill="#9C9A92"/>
+  <text x="646" y="241" font-family="PingFang SC, sans-serif" font-size="17" font-weight="600" fill="#141413">70%</text>
+
+  <!-- the minimum line -->
+  <polyline points="40,268 920,268" fill="none" stroke="#C15F3C" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <rect x="664" y="255" width="262" height="26" rx="13" fill="#FAF9F5"/>
+  <text x="914" y="273" font-family="PingFang SC, sans-serif" font-size="14" fill="#C15F3C" text-anchor="end">ElderTV 最低要求 7.0，上面的装不上</text>
+
+  <!-- supported: clay -->
+  <text x="144" y="305" font-family="PingFang SC, sans-serif" font-size="17" fill="#141413" text-anchor="end">安卓 7.0</text>
+  <rect x="160" y="286" width="571" height="26" rx="4" fill="#C15F3C"/>
+  <text x="741" y="305" font-family="PingFang SC, sans-serif" font-size="17" font-weight="600" fill="#141413">84%</text>
+
+  <text x="144" y="355" font-family="PingFang SC, sans-serif" font-size="17" fill="#141413" text-anchor="end">安卓 8.0</text>
+  <rect x="160" y="336" width="646" height="26" rx="4" fill="#C15F3C"/>
+  <text x="816" y="355" font-family="PingFang SC, sans-serif" font-size="17" font-weight="600" fill="#141413">95%</text>
+
+  <text x="40" y="452" font-family="PingFang SC, sans-serif" font-size="14" fill="#87867F">数据：159 个公开插件包（38 个加密的不计），7.0 一档在模拟器上抽样验证过</text>
+</svg>
