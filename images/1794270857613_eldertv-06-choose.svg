@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect x="0" y="0" width="960" height="600" fill="#FAF9F5"/>
+  <text x="40" y="54" font-family="Songti SC, STSong, serif" font-size="28" font-weight="700" fill="#141413">手上这台设备能不能用</text>
+  <text x="40" y="86" font-family="PingFang SC, sans-serif" font-size="16" fill="#5E5D59">先看系统版本，再决定换不换</text>
+
+  <!-- start -->
+  <rect x="330" y="110" width="300" height="56" rx="28" fill="#141413"/>
+  <text x="480" y="144" font-family="PingFang SC, sans-serif" font-size="17" fill="#FAF9F5" text-anchor="middle">设置 → 关于 → 安卓版本</text>
+
+  <!-- connectors -->
+  <polyline points="480,166 480,190 170,190 170,214" fill="none" stroke="#87867F" stroke-width="1.5"/>
+  <polygon points="164,206 176,206 170,216" fill="#87867F"/>
+  <polyline points="480,166 480,214" fill="none" stroke="#87867F" stroke-width="1.5"/>
+  <polygon points="474,206 486,206 480,216" fill="#87867F"/>
+  <polyline points="480,190 790,190 790,214" fill="none" stroke="#87867F" stroke-width="1.5"/>
+  <polygon points="784,206 796,206 790,216" fill="#87867F"/>
+
+  <!-- branch A -->
+  <rect x="40" y="218" width="260" height="128" rx="14" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" fill="#141413"><tspan x="60" y="252" font-size="19" font-weight="700">9.0 及以上</tspan><tspan x="60" y="284" font-size="16">直接用</tspan><tspan x="60" y="312" font-size="15" fill="#5E5D59">插件能跑的站最多</tspan></text>
+
+  <!-- branch B -->
+  <rect x="350" y="218" width="260" height="128" rx="14" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" fill="#141413"><tspan x="370" y="252" font-size="19" font-weight="700">7.0 – 8.x</tspan><tspan x="370" y="284" font-size="16">能用</tspan><tspan x="370" y="312" font-size="15" fill="#5E5D59">7.0 上部分站自动隐藏；</tspan><tspan x="370" y="334" font-size="15" fill="#5E5D59">直播看系统 WebView 版本</tspan></text>
+
+  <!-- branch C -->
+  <rect x="660" y="218" width="260" height="128" rx="14" fill="#FBEFE9" stroke="#C15F3C" stroke-width="1.5"/>
+  <text font-family="PingFang SC, sans-serif" fill="#141413"><tspan x="680" y="252" font-size="19" font-weight="700">7.0 以下</tspan><tspan x="680" y="284" font-size="16">装不上</tspan><tspan x="680" y="312" font-size="15" fill="#5E5D59">不打算做老版本分支</tspan></text>
+
+  <!-- C splits -->
+  <polyline points="790,346 790,376 480,376 480,400" fill="none" stroke="#C15F3C" stroke-width="1.5"/>
+  <polygon points="474,392 486,392 480,402" fill="#C15F3C"/>
+  <polyline points="790,376 790,400" fill="none" stroke="#C15F3C" stroke-width="1.5"/>
+  <polygon points="784,392 796,392 790,402" fill="#C15F3C"/>
+
+  <rect x="350" y="404" width="260" height="150" rx="14" fill="#C15F3C"/>
+  <text font-family="PingFang SC, sans-serif" fill="#FFFFFF"><tspan x="370" y="438" font-size="19" font-weight="700">换盒子（推荐）</tspan><tspan x="370" y="470" font-size="15">二手安卓 9.0 以上</tspan><tspan x="370" y="492" font-size="15">一两百块</tspan><tspan x="370" y="520" font-size="15">新的三百块左右</tspan></text>
+
+  <rect x="660" y="404" width="260" height="150" rx="14" fill="#F0EEE6"/>
+  <text font-family="PingFang SC, sans-serif" fill="#141413"><tspan x="680" y="438" font-size="19" font-weight="700">旧手机当盒子</tspan><tspan x="680" y="470" font-size="15" fill="#5E5D59">系统 7.0 以上</tspan><tspan x="680" y="492" font-size="15" fill="#5E5D59">能接电视、能边接边充</tspan><tspan x="680" y="514" font-size="15" fill="#5E5D59">配一个蓝牙遥控器</tspan><tspan x="680" y="536" font-size="15" fill="#5E5D59">打开充电保护</tspan></text>
+</svg>
